@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LinhKa_Brick_v1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wSZ-5z-8mT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="707"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UR3-Hs-Aoe">
+                                <rect key="frame" x="295" y="487" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.14901961389999999" green="0.14901961389999999" blue="0.14901961389999999" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="qiR-Sz-z3T"/>
+                                    <constraint firstAttribute="height" constant="30" id="wV3-Ue-Jws"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="longbiibox.png" translatesAutoresizingMaskIntoConstraints="NO" id="sd4-S1-pJx">
+                                <rect key="frame" x="147.5" y="70" width="80" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="4nB-6y-9Kj"/>
+                                    <constraint firstAttribute="width" constant="80" id="rt4-T7-1w8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="longhoangbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="816-95-8Wg">
+                                <rect key="frame" x="235.5" y="70" width="80" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ajT-aC-Bc2"/>
+                                    <constraint firstAttribute="width" constant="80" id="o5Y-fk-F7m"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chiibebox.png" translatesAutoresizingMaskIntoConstraints="NO" id="aWt-Yt-8ah">
+                                <rect key="frame" x="59.5" y="70" width="80" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Hhh-13-fBM"/>
+                                    <constraint firstAttribute="height" constant="100" id="hD2-RI-Yn8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box.png" translatesAutoresizingMaskIntoConstraints="NO" id="1sE-MZ-6od">
+                                <rect key="frame" x="76" y="220" width="69" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="a0O-FM-ELi"/>
+                                    <constraint firstAttribute="height" constant="69" id="v6k-RW-opQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oqo-Ny-Zp8">
+                                <rect key="frame" x="153" y="220" width="69" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="NF4-NN-F5E"/>
+                                    <constraint firstAttribute="height" constant="69" id="VT2-Sx-flo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box.png" translatesAutoresizingMaskIntoConstraints="NO" id="O9Q-tv-cTe">
+                                <rect key="frame" x="230" y="220" width="69" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="9KV-rB-kd2"/>
+                                    <constraint firstAttribute="height" constant="69" id="f5e-8c-kOY"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pbD-Y9-RJG">
+                                <rect key="frame" x="50" y="487" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.14901961389999999" green="0.14901961389999999" blue="0.14901961389999999" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EU3-Kl-vqa"/>
+                                    <constraint firstAttribute="width" constant="30" id="V5R-dT-DdG"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lkb.png" translatesAutoresizingMaskIntoConstraints="NO" id="XL0-eU-8MR">
+                                <rect key="frame" x="137.5" y="452" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="fwb-Mu-Wkt"/>
+                                    <constraint firstAttribute="width" constant="100" id="nk7-Ta-UNO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wSZ-5z-8mT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1IG-Dm-jH9"/>
+                            <constraint firstItem="wSZ-5z-8mT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1bh-aB-HDX"/>
+                            <constraint firstItem="sd4-S1-pJx" firstAttribute="leading" secondItem="aWt-Yt-8ah" secondAttribute="trailing" constant="8" id="4a3-Bf-hLl"/>
+                            <constraint firstItem="Oqo-Ny-Zp8" firstAttribute="top" secondItem="sd4-S1-pJx" secondAttribute="bottom" constant="50" id="8uE-zX-m7w"/>
+                            <constraint firstItem="816-95-8Wg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="9xo-ab-ypd"/>
+                            <constraint firstItem="aWt-Yt-8ah" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="AkD-Ke-LyA"/>
+                            <constraint firstItem="pbD-Y9-RJG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="BGr-a0-CVh"/>
+                            <constraint firstItem="wSZ-5z-8mT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="40" id="CS3-i6-WP8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pbD-Y9-RJG" secondAttribute="bottom" constant="150" id="HfV-yI-spb"/>
+                            <constraint firstItem="816-95-8Wg" firstAttribute="leading" secondItem="sd4-S1-pJx" secondAttribute="trailing" constant="8" id="Hor-9w-Joi"/>
+                            <constraint firstItem="wSZ-5z-8mT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IJT-up-Mtr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UR3-Hs-Aoe" secondAttribute="bottom" constant="150" id="MuK-Tg-cHI"/>
+                            <constraint firstItem="sd4-S1-pJx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nvz-hY-mpZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XL0-eU-8MR" secondAttribute="bottom" constant="115" id="Vn5-hf-3w6"/>
+                            <constraint firstItem="1sE-MZ-6od" firstAttribute="top" secondItem="aWt-Yt-8ah" secondAttribute="bottom" constant="50" id="VzN-0d-ZQI"/>
+                            <constraint firstItem="Oqo-Ny-Zp8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bJl-en-bNo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UR3-Hs-Aoe" secondAttribute="trailing" constant="50" id="fIW-vM-NjI"/>
+                            <constraint firstItem="sd4-S1-pJx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="g3j-ur-IkC"/>
+                            <constraint firstItem="XL0-eU-8MR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jqA-9Z-MGt"/>
+                            <constraint firstItem="O9Q-tv-cTe" firstAttribute="top" secondItem="816-95-8Wg" secondAttribute="bottom" constant="50" id="uBs-L8-5P2"/>
+                            <constraint firstItem="O9Q-tv-cTe" firstAttribute="leading" secondItem="Oqo-Ny-Zp8" secondAttribute="trailing" constant="8" id="vRP-Bb-XYj"/>
+                            <constraint firstItem="Oqo-Ny-Zp8" firstAttribute="leading" secondItem="1sE-MZ-6od" secondAttribute="trailing" constant="8" id="vpf-Bp-7HR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="box1" destination="1sE-MZ-6od" id="GF3-hb-OhJ"/>
+                        <outlet property="box2" destination="Oqo-Ny-Zp8" id="g8N-UT-XcY"/>
+                        <outlet property="box3" destination="O9Q-tv-cTe" id="o2a-W7-nvG"/>
+                        <outlet property="chiiBe" destination="aWt-Yt-8ah" id="Td2-uC-Y8t"/>
+                        <outlet property="linggkaBall" destination="XL0-eU-8MR" id="jPk-DN-ZtR"/>
+                        <outlet property="longBii" destination="sd4-S1-pJx" id="WYy-RL-aTS"/>
+                        <outlet property="longHoang" destination="816-95-8Wg" id="bmm-3C-byl"/>
+                        <outlet property="mainImageView" destination="wSZ-5z-8mT" id="Als-Ms-dqQ"/>
+                        <outlet property="slingShotPoint1" destination="pbD-Y9-RJG" id="rfK-Ki-qZO"/>
+                        <outlet property="slingShotPoint2" destination="UR3-Hs-Aoe" id="ksR-ao-d76"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="box.png" width="1000" height="833"/>
+        <image name="chiibebox.png" width="1000" height="1323"/>
+        <image name="lkb.png" width="750" height="750"/>
+        <image name="longbiibox.png" width="1000" height="1347"/>
+        <image name="longhoangbox.png" width="1000" height="1327"/>
+    </resources>
+</document>
